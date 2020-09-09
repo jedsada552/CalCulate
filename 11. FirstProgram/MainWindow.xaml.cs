@@ -32,6 +32,8 @@ namespace _11._FirstProgram
             int cal3 = int.Parse(Cal_3.Text);
             int total = cal1 - cal2;
             int day = cal3 / total;
+            string show = total.ToString (); 
+            Cal_4.Text =show;
 
             if (cal1 < cal2)
             {
